@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Button HorizontalAlignment="Center" Width="100">1</Button>
+        <Button HorizontalAlignment="Left" Width="100">2</Button>
+        <Button HorizontalAlignment="Right" Width="100
+                ">3</Button>
+    </StackPanel>
 </Window>
