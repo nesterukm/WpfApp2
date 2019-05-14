@@ -7,9 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <Button HorizontalAlignment="Center" Width="100">1</Button>
-        <Button HorizontalAlignment="Left" Width="100">2</Button>
-        <Button HorizontalAlignment="Right" Width="100
-                ">3</Button>
+        
+        <GroupBox Margin="10">
+            <GroupBox.Header>
+                <Bold>Ile grasz na kompie</Bold>
+            </GroupBox.Header>
+              <StackPanel Margin="10">
+               <RadioButton Margin="10"> wcale</RadioButton>
+               <RadioButton Margin="10"> 1-2 godz.</RadioButton>
+               <RadioButton Margin="10"> 3-6 godz.</RadioButton>
+              </StackPanel>
+        </GroupBox>
+
+        <GroupBox Margin="10">
+          <GroupBox.Header>
+            <Bold>Ile grasz na kompie</Bold>
+          </GroupBox.Header>
+        <StackPanel Margin="10">
+           <RadioButton Margin="10">wcale</RadioButton>
+           <RadioButton Margin="10">1-2 godz.</RadioButton>
+           <RadioButton Margin="10">3-6 godz.</RadioButton>
+        </StackPanel>
+        </GroupBox>
     </StackPanel>
 </Window>
